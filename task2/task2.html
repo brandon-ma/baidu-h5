@@ -131,29 +131,57 @@
     <aside>
       <h2>侧栏标题</h3>
       <form action="" method="get">
-        <lable>请输入邮箱地址：<input type="text" placeholder="这是一个文本输入框" /></lable>
-        <p>邮箱地址请按要求格式输入</p>  <!--用<p>行成一行，尽量少用<br/>强制换行-->
-        <label>请输入密码：<input type="password" placeholder="这是一个文本输入框" /></label>
-        <label>请重复输入密码：<input type="password" placeholder="这是一个文本输入框" /></label>
-        <p>密码请为6-16位英文数字</p>
-		<p>
-        性别：
-        <label><input type="radio" name="sex" value="male" checked="checked" />男</label> <!--一定要写上name和value属性-->
-        <label><input type="radio" name="sex" value="female"/>女</label>
-        <label>城市
-          <select>
-            <option>北京</option>
-            <option>上海</option>
-          </select>
-        </label>
-        <label><input type="checkbox" name="field" value="sports" />运动</label>
-        <label><input type="checkbox" name="field" value="art"/>艺术</label>
-        <label><input type="checkbox" name="field" value="science"/>科学</label>
-        <label><textarea placeholder="请输入个人描述"></textarea></label>
-        <input type="submit" value="确认提交" />
-		</p>
+      	<section>
+      	  <label class="col-4">请输入邮箱地址：</label>
+      	  <div class="col-8">
+      	    <input type="text" placeholder="这是一个文本输入框" />
+            <span>邮箱地址请按要求格式输入</span>  <!--用<p>行成一行，尽量少用<br/>强制换行-->
+      	  </div>
+      	</section>
+      	<section>
+      	  <label class="col-4">请输入密码：</label>
+      	  <div class="col-8">
+      	    <input type="password" placeholder="这是一个文本输入框" />
+      	  </div>
+      	</section>
+      	<section>
+      	  <label class="col-4">请重复输入密码：</label>
+      	  <div class="col-8">
+      	    <input type="password" placeholder="这是一个文本输入框" />
+            <span>密码请为6-16位英文数字</span>
+      	  </div>
+      	</section>
+      	<section>
+      	  <label class="col-4">性别：</label>
+      	  <div class="col-8">
+      	    <input type="radio" name="sex" value="male" checked="checked" />男 <!--一定要写上name和value属性-->
+            <input type="radio" name="sex" value="female"/>女
+      	  </div>
+      	</section>
+      	<section>
+      	  <label class="col-4">城市: </label>
+      	  <div class="col-8">
+      	    <select>
+              <option>北京</option>
+              <option>上海</option>
+            </select>
+      	  </div>
+      	</section>
+      	<section>
+      	  <label class="col-4">爱好： </label>
+      	  <div class="col-8">
+      	    <input type="checkbox" name="field" value="sports" />运动
+            <input type="checkbox" name="field" value="art"/>艺术
+            <input type="checkbox" name="field" value="science"/>科学
+      	  </div>
+      	</section>
+      	<section>
+      	  <label class="col-4">个人描述： </label>
+          <textarea placeholder="请输入个人描述" class="col-8"></textarea>
+      	</section>
+        <input type="submit" value="确认提交" id="submit"/>
       </form>
     </aside>
-  <footer>版权所有</footer>
+  <footer><p>版权所有</p></footer>
  </body>
 </html>
