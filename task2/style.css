@@ -1,5 +1,6 @@
 body{
 	margin: 0px;
+	background-color: #dedede;
 }
 header{
 	margin: 0px;
@@ -25,4 +26,42 @@ header a{
 }
 #page4{
 	color: #939666;
+}
+article{
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+h3{
+	color:#939393;
+}
+.author{
+	color: #939393;
+}
+.picture{
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 700px;
+	border: solid 1px #E3E3E3;
+}
+#tableBottom{
+	background-color: #A7A7A7;
+	font-weight: 800;
+}
+table{
+	width: 100%;
+	text-align: left;
+	border-collapse:collapse;
+	border: solid #999;
+	border-width: 1px;
+}
+table thead{
+	color: #fff;
+	background-color: #000;
+}
+aside{
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
 }
