@@ -1,0 +1,28 @@
+body{
+	margin: 0px;
+}
+header{
+	margin: 0px;
+	padding: 0px;
+	min-height: 70px;
+	background-color: #333;
+	color: #fff;
+}
+header nav{
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-down: 10px; 
+	float: right;
+}
+header nav ul li{
+	display:inline;
+	margin-left:10px;
+}
+header a{
+	font-size: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+#page4{
+	color: #939666;
+}

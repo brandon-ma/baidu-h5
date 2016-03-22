@@ -2,20 +2,21 @@
 <html> <!--这里的lang="en"可以删除，如果不删除的，用谷歌之类打开，它会认为是英文的，会自动给翻译（如果设置了自动翻译的话）-->
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> <!--完整的写法应该是这样-->
-    <title>Task1 webpage</title>
+    <title>Task2 webpage</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   
   <body>
     <header>
-      <h1>网站一级标题</h1>
-      <ul> <!--我改成ul后前面有小圆点了，可能<nav>标签默认的list-style-type:none;-->
-        <li><a href="#page1">导航链接一</a></li>
-        <li><a href="#page2">导航链接二</a></li>
-        <li><a href="#page3">导航链接三</a></li>
-        <li><a href="#page4">导航链接四</a></li>
-      </ul>
+      <nav>
+        <ul> <!--我改成ul后前面有小圆点了，可能<nav>标签默认的list-style-type:none;-->
+          <li><a href="#page1">导航链接一</a></li>
+          <li><a href="#page2">导航链接二</a></li>
+          <li><a href="#page3">导航链接三</a></li>
+          <li id="page4"><a href="#page4">导航链接四</a></li>
+        </ul>
+      </nav>
     </header>
-    <div class="main">  <!--页面主体最好整体放到一个<div>里-->
      <article>
       <h2>文章一级标题</h2>
       <h3>文章二级标题</h3>
@@ -170,7 +171,6 @@
 		</p>
       </form>
     </aside>
-  </div>
   <footer>版权所有</footer>
  </body>
 </html>
