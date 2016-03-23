@@ -1,0 +1,29 @@
+#container{
+  padding: 20px;
+  background: #eee;
+  border: 1px solid #999;
+  min-width: 800px;
+  overflow: auto;
+  margin: 0 auto;
+}
+#left{
+  background: #fff;
+  border: 1px solid #999;
+  padding: 20px;
+  width: 160px;
+  float: left;
+}
+#right{
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #999;
+  width: 120px;
+  float: right;
+}
+#middle{
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #999;
+  margin-left: 220px;
+  margin-right: 220px;
+}
